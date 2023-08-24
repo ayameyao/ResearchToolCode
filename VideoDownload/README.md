@@ -11,5 +11,5 @@
 **Chinese version description**
 
 1. 在当前目录下创建一个文件夹，默认命名为：downloaded_videos，用以存储下载后的视频； 
-2. youtube_url_list.txt 里是youtube视频链接的后11位标志符号，如一个链接https://www.youtube.com/watch?v=9cFtUqRQ9ew，则其标志符为：9cFtUqRQ9ew； 
+2. youtube_url_list.txt 里是youtube视频链接的后11位标志符号，如一个链接 [https://www.youtube.com/watch?v=9cFtUqRQ9ew](https://www.youtube.com/watch?v=9cFtUqRQ9ew)，则其标志符为：9cFtUqRQ9ew； 
 3. youtube_video_download.py 是执行程序，需要一些关键的python包文件，如ffmpeg等。
