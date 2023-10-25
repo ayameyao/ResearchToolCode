@@ -2,6 +2,8 @@
 
 ImageBind官方地址：https://github.com/facebookresearch/ImageBind
 
+使用之前，服务器需要自行下载权重文件。
+
 可以使用ImageBind提取audio、visual和text等6种模态的特征，即可以同时提取6种，可以单独只提取其中一种模态特征。具体使用过程如下：
 
 1. **数据预处理**
@@ -65,6 +67,9 @@ ImageBind官方地址：https://github.com/facebookresearch/ImageBind
    ```
 
 3. **执行**
+
+   首先需要下载权重文件，下载地址：https://dl.fbaipublicfiles.com/imagebind/imagebind_huge.pth",
+   本程序默认存储路径：`.checkpoints/imagebind_huge.pth`，如有下载问题，欢迎邮件联系。
 
    ```python
    python extract_imagebind_feats.py
