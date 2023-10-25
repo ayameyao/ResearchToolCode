@@ -4,7 +4,7 @@ ImageBind官方地址：https://github.com/facebookresearch/ImageBind
 
 使用之前，服务器需要自行下载权重文件。
 
-可以使用ImageBind提取audio、visual和text等6种模态的特征，即可以同时提取6种，可以单独只提取其中一种模态特征。具体使用过程如下：
+可以使用ImageBind提取audio、visual和text等6种模态的特征，既可以同时提取6种，可以单独只提取其中一种模态特征。具体使用过程如下：
 
 1. **数据预处理**
 
